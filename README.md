@@ -249,6 +249,7 @@ This corresponds to a truncated normal with mean `1/2` and variance `1/4` before
 However, the paper's **Figure 2** and the **Table 1 truncated-normal column** appear visually/numerically closer to a narrower distribution, more consistent with variance `1/16`.
 
 Because of this, the current code reproduces the paper text literally, but some truncated-normal values in Table 1 differ systematically from the published values.
+![Truncated-normal ambiguity check](truncated-normal-ambiguity-check.png)
 
 ### 5. Figure 2 caption text and the actual plot are swapped in the paper
 
