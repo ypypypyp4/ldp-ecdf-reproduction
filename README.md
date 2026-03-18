@@ -111,7 +111,7 @@ To generate the Table 1 subset:
 python tables.py table1 --results density_results_table1.json --out table1
 ```
 
-#### 2. Density-based sampling with oracle \(G=F\): Table 3
+#### 2. Density-based sampling with oracle $G=F$: Table 3
 
 ```bash
 python experiments_density.py --G oracle \
@@ -182,8 +182,8 @@ We successfully reproduced the following parts of the paper:
 3. **Figure 4 / Tables 1 and 3 (density-based sampling)**
    - The main trends are reproduced successfully.
    - Errors decrease as the sample size increases.
-   - Errors decrease as the privacy parameter \(r\) increases.
-   - The oracle sampling baseline \(G=F\) behaves consistently with the paper.
+   - Errors decrease as the privacy parameter $r$ increases.
+   - The oracle sampling baseline $G=F$ behaves consistently with the paper.
    - Table 3 is reproduced particularly well.
 
 4. **Figure 2 and Figure 3**
