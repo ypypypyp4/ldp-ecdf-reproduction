@@ -191,7 +191,7 @@ We successfully reproduced the following parts of the paper:
    - The overall shapes and qualitative behavior match the paper.
 
 5. **Table 2**
-   - The conversion between \(r\) and \(\varepsilon\) is reproduced directly from the implemented formula.
+   - The conversion between $r$ and $\varepsilon$ is reproduced directly from the implemented formula.
 
 6. **Table 7**
    - The runtime benchmark is reproduced as a computational reference.
