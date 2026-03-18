@@ -267,7 +267,7 @@ The code in `plots.py` follows the **actual figure axes**, not the caption wordi
 
 ### 6. Finite-grid numerical evaluation
 
-For density-based experiments, MAE and \(L_2\) error are computed on a finite evaluation grid (`grid_size=2001` by default), and the \(L_2\) term is approximated numerically. This does not affect the main conclusions, but it may create very small numerical differences relative to the paper.
+For density-based experiments, MAE and $L_2$ error are computed on a finite evaluation grid (`grid_size=2001` by default), and the $L_2$ term is approximated numerically. This does not affect the main conclusions, but it may create very small numerical differences relative to the paper.
 
 ## Recommended interpretation of the reproduction
 
