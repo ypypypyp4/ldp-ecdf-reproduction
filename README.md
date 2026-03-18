@@ -16,7 +16,7 @@ Since the official code is not publicly available, we implemented all code in th
 The code implements:
 
 1. **The LDP data collection mechanism** based on randomized response for the binary query
-   $\Delta = \mathbf{1}_{\{X \le T\}}$.
+   $\Delta = \mathbf{1}_{X \le T}$.
 2. **The constrained isotonic CDF estimator** from Algorithm 1 in the paper.
 3. **Density-based sampling experiments** used for Table 1, Table 3, and Figure 4.
 4. **Preselected sampling experiments** used for Figure 1 and Tables 4--6.
